@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+} 
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+.header{
+    background-color: whitesmoke;
+    display: flex;
+    
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.menu{
+    background-color:
+    #FFFFFF;
+    border: 1px solid 
+    #E4E7EC;  
+}
+.menu img{
+    width: 45px;
+  
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+li {
+    margin-top: 10px;
+    border-color: green;
+    color: black;
+    border-radius: 10px;
+    width: max-content;
+    gap: 3rem;
+}
+.btn {
+    color: var(--AlmostWhite);
+    padding: .5rem .75rem;
+    border-radius: .5rem;
+    border: 1px solid transparent;
+}
+.btn.bordered {
+    background-color: transparent;
+    display: flex;
+   gap: 1rem;
+    align-items: center;
+
+}
+
+.btn:hover {
+    background-color: green;
+    border-color: green;
+    color: var(--AlmostBlack);  
+}
+a {
+    text-decoration: none;
+    color: inherit
+}
+.btn img{
+    width: 15px;
+    color: black;
+}
+
+.down{
+    margin-top: 13.5rem;
+}
+.emma img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.emma{
+    display: flex;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    gap: 1rem;   
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 4rem;
+  }
+.sect{
+    background-color: bisque;
+}
+.timeline-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+   justify-content: center;
+   margin-top: 50px;
+  
+  }
+  
+  .timeline{
+    display:flex;
+    flex-direction: column;
+    gap: .2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  
+  
+  .timeline h4{
+    margin-block: 0;
+  }
+  
+  .timeline .box{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid #C9C9C9;
+    display: grid;
+    place-items: center;
+    position: relative;
+    
+  }
+  
+  .timeline .box.active{
+    border-color: black;
+  }
+  
+  
+  
+  .timeline:not(:last-of-type) .box::before{
+    content: "";
+    position: absolute;
+    left: 100%;
+    width: 100px;
+    height: 1px;
+    background-color: #C9C9C9;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .timeline:not(:last-of-type) .box.active::before{
+    background-color: black;
+  }
+  .Reservation{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 25px;
+  }
+  .turn{
+    display: flex;
+    gap: 2rem;
+  }
+ .one{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+ .gbi{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+   
+    padding: 10px;
+ }
+ .gbi img{
+    width: 25px;
+ }
+ hr{
+    margin-top: 5px;
+    width: 100%;
+    margin: auto;
+ }
+ .grid{
+        display: flex;
+        gap: 2.8rem;
+        align-items: center;
+        font-size: 12px;
+        margin-top: 10;
+        padding: 5px;
+        font-size: 12px;
+       
+}
+.mat{
+        display: flex;
+        gap: 2.2rem;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 10;
+        margin-right: 40px;
+        padding: 10px;
+        justify-content: space-between;
+       
+       
+      }
+
+      .mat img{
+        width: 25px;
+      }
+      .lift{
+        display: flex;
+        flex-direction: column;
+      }
+ .two{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 12px;
+    max-width: max-content;;
+   
+ }
+ .three{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 4px;
+   
+ }
+ .four{
+    display: flex;
+    gap: 1rem;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 6px;
+    align-items: center;
+ }
+ .four img{
+    width: 15px;
+ }
+.ket{
+    display: flex;
+    gap: 1rem;
+}
+.ket img{
+    width: 15px;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.service{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+   
+}
+.service img{
+    width: 25px;
+}
+.make{
+    display: flex;
+   justify-content: space-between;
+    gap: 7rem;
+   
+}
+.price{
+    display: flex;
+    gap: 1rem;
+   
+}
+.add{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.add img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.total{
+    display: flex;
+    gap: 2rem;
+}
+.lolo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.lolo h5{
+    font-size: 18px;
+}
+.ment button{
+    width: 100%;
+    background-color: #A5D88C;
+    color: #FFFFFF;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+  .border{
+    display:flex;
+    flex-direction: column;
+    gap: .2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .border .ball{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    border: 1px solid #C9C9C9;
+    display: grid;
+    place-items: center;
+    position: relative;
+    
+  }
+  
+  .border .ball.active{
+    border-color: black;
+  }
+
+@media screen and (max-width: 500px){
+    
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        justify-content: center;
+}
+.Reservation{
+    flex-direction: column;
+}
+.turn{
+    flex-direction: column;
+}
+.three{
+    flex-direction: column;
+    padding-inline: 2rem;
+}
+  }
+  /*@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            justify-content: center;
+    }
+    
+    .Reservation{
+        flex-direction: column;
+    }
+    .turn{
+        flex-direction: column;
+    }
+    .three{
+        flex-direction: column;
+        padding-inline: 2rem;
+    }
+    .gbi{
+        flex-direction: column;*/
+    }
+   
+  }

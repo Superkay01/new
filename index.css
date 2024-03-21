@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+} 
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+.header{
+    background-color: whitesmoke;
+    display: flex;
+    
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.menu{
+    background-color:
+    #FFFFFF;
+    border: 1px solid 
+    #E4E7EC;  
+}
+.menu img{
+    width: 45px;
+   
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+li {
+    margin-top: 10px;
+    border-color: green;
+    color: black;
+    border-radius: 10px;
+    width: max-content;
+    gap: 3rem;
+}
+.btn {
+    color: var(--AlmostWhite);
+    padding: .5rem .75rem;
+    border-radius: .5rem;
+    border: 1px solid transparent;
+}
+.btn.bordered {
+    background-color: transparent;
+    display: flex;
+   gap: 1rem;
+    align-items: center;
+
+}
+
+.btn:hover {
+    background-color: green;
+    border-color: green;
+    color: var(--AlmostBlack);
+      
+}
+a {
+    text-decoration: none;
+    color: inherit
+}
+.btn img{
+    width: 15px;
+    color: black;
+}
+
+.down{
+    margin-top: 12rem;
+}
+.emma img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.emma{
+    display: flex;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    gap: 1rem;   
+}
+.form {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: .5rem;
+  }
+  .form input{
+    width: 180%;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    padding: .5rem;
+    padding-left: 2rem;
+    text-align: left;
+    color: gray;
+    border: 1px solid whitesmoke;
+  }
+  .form img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: .5rem;
+    top: 20%;
+    transform: translate(-15%);
+  }
+  .dropbtn{
+    background-color: 
+    #FAFAFA;
+   border: none;
+    color: green;
+    padding: 4px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:
+    #FAFAFA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content p{
+    margin-top: 0.8rem;
+    padding: 5px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .dropdown-content button{
+      width: 12rem;
+      color: green;
+      border-color: green;
+      padding: 4px;
+      margin-top: 5px;
+     
+    
+  }
+  .info{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.info a{
+    background-color: 
+    #FAFAFA;
+    padding: 10px;
+    border-radius: 50px;
+    color: grey;
+    
+}
+
+.class{
+    display: flex;
+    background-color: 
+    #F9FAFB;
+  
+}
+.code{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    flex: 1;
+   
+   
+   
+}
+
+.mb img{
+    width: 13px;
+}
+.charge{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 13px;
+}
+
+.cott{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid 
+    #E4E7EC;
+    border: 1px solid gray;
+  
+}
+.cott a{
+    color: green;
+}
+.lap{
+    display: flex;
+    flex-direction: column;
+    flex: ;
+}
+.lap h4{
+    margin-top: 50px;
+}
+.mb{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.mb a{
+    color: #3e8e41;
+}
+.mb{
+    margin-top: 20px;
+}
+
+.lol{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+} 
+.com{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+   margin-left: 25rem;
+    border-radius: 1px;
+    padding: 7px;
+    max-width: max-content;
+    gap: 1rem;
+    border-radius: 5px;
+    border: #E4E7EC;
+    flex: 1;
+    margin-top: 20px;
+   
+}
+.com img{
+    width: 18px;
+}
+.five iframe{
+    border: #E4E7EC;
+}
+/*@media screen and (max-width: 500px) {
+    .carrier{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .class{
+        flex-direction: column;
+    }
+    .code{
+        flex-direction: column;
+    }
+    .cott{
+        flex-direction: column;
+    }
+    .lap{
+        flex-direction: column;
+    }
+    .lol{
+        flex-direction: column;
+    }
+    
+}*/
